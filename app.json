@@ -30,7 +30,6 @@
     "pages/search/search",
     "pages/order-review/order-review",
     "pages/liveplayer",
-    "pages/live-player/live-player",
     "pages/aftersale/aftersale",
     "pages/aftersale-return/aftersale-return",
     "pages/aftersale-returnstatus/aftersale-returnstatus",
@@ -93,10 +92,7 @@
     ]
   },
   "plugins": {
-    "live-player-plugin": {
-      "version": "1.2.0",
-      "provider": "wx2b03c6e691cd7370"
-    }
+
   },
   "sitemapLocation": "sitemap.json"
 }

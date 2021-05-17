@@ -1,6 +1,6 @@
 var config = {
 	// Fecmall Appserver 的域名地址，需要https才能线上使用
-  'url': 'https://fecyoserver.fecshop.com',
+  'url': 'https://appserver.changsheng.etengpc.com',
   'subDomain': '',
 
   // 默认语言

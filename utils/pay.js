@@ -25,7 +25,9 @@ function wxpay(app, money, orderId, redirectUrl) {
           signType: jsApiParameters.signType, //'MD5',
           paySign: jsApiParameters.paySign,
           fail:function (aaa) {
-            wx.showToast({title: '支付失败'})
+            wx.showToast({
+              title: '支付失败',
+              icon: 'error'})
           },
           success:function () {
             wx.showToast({title: '支付成功'})
@@ -35,7 +37,9 @@ function wxpay(app, money, orderId, redirectUrl) {
           }
         })
       } else {
-        wx.showToast({ title: '服务器忙' + res.data.code + res.data.msg})
+        wx.showToast({
+          title: '服务器忙' + res.data.code + res.data.msg,
+          icon: 'error'})
       }
     }
   })
